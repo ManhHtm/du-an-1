@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "bungee";
+    src: url(/Roboto/Roboto-Bold.ttf);
+}
+
+
+.container{
+    width: 1440px;
+    font-family: "bungee";
+    margin: auto;
+}
+header .logo img{
+    width: 250px; 
+}
+
+header{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+header .text h2{
+    margin-top: 60px;
+    margin-left: 450px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 300px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.lr{
+    display: flex;
+}
+.danhsach{
+    margin-left: 30px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 12px;
+}
+.row .form input{
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+}
+
+.row{
+    margin: 30px 0px;
+}
+
+.row .form{
+    margin: 10px 0px;
+    
+}
+
+.row .btn input{
+    padding: 6px;
+    background-color: rgb(114, 124, 124);
+    color: white;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+}
+
